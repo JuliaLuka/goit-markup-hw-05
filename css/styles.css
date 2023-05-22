@@ -158,7 +158,7 @@ body {
     border-radius: 2px;
 
     background-color: var(--ocean);
-    color: var(--ocean);
+
 
 }
 .navigation-link:hover,
@@ -504,7 +504,10 @@ body {
     position: relative;
 }
 
-.portfolio-item:hover .portfolio-top-text,
+.portfolio-item:hover .portfolio-top-text {
+    transform: translateY(0%);
+}
+
 .portfolio-item:focus .portfolio-top-text {
     transform: translateY(0%);
 }
