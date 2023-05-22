@@ -503,16 +503,12 @@ body {
     position: relative;
 }
 
-/* .portfolio-item:hover .portfolio-top-text,
-.portfolio-item:focus .portfolio-top-text{
-    transform: translateY(0%);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
-
-.portfolio-top-text:hover,
-.portfolio-top-text:focus {
-    transform: translateY(0%);
+.portfolio-item:hover .portfolio-top-text,
+.portfolio-item:focus .portfolio-top-text {
+    transform: translateY(0%) , translateY(0%);
 }
+
+
 
 .portfolio-top-wrap {
     position: relative;
