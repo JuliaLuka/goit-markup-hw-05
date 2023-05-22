@@ -505,9 +505,8 @@ body {
 
 .portfolio-item:hover .portfolio-top-text,
 .portfolio-item:focus .portfolio-top-text {
-    transform: translateY(0%) , translateY(0%);
+    transform: translateY(0%);
 }
-
 
 
 .portfolio-top-wrap {
