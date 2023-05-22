@@ -549,12 +549,9 @@ body {
 
 }
 
-.portfolio-link:hover { 
-    transform: translateY(0%);
-}
-
-.portfolio-link:focus {
-    transform: translateY(0%);
+.portfolio-link:hover .portfolio-top-text,
+.portfolio-link:focus .portfolio-top-text {
+    transform: translateY(0);
 }
 
 .portfolio-link-wrap {
