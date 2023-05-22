@@ -137,7 +137,7 @@ body {
 .navigation-link {
     display: inline-block;
     padding: 24px 0;
-    color: var(--navy-blue);
+    color: var(--ocean);
 
     font-weight: 500;
     font-size: 16px;
